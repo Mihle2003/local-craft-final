@@ -1,0 +1,9 @@
+# Query: you can now access 
+# ContextLines: 1
+
+1 result - 1 file
+
+frontend\src\pages\Dashboard\Student\Payment\CheckoutPayment.jsx:
+  116                          if (res.deletedResult.deletedCount > 0 && res.paymentResult.insertedId && res.updatedResult.modifiedCount > 0) {
+  117:                             setSucceeded('Payment Successful , You can now access your designs')
+  118                          }
